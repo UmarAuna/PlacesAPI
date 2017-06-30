@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.googleplaces.MainActivity">
+
+    <Button
+        android:id="@+id/findPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Google Places"
+        android:onClick="findPlace"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25dp"
+        android:layout_below="@+id/findPlace"
+        android:id="@+id/searched_address"/>
+
+</RelativeLayout>
